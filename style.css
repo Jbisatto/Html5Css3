@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+    margin : 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+.Container{
+    margin: 0 auto;
+    background-color: #dcdcdc;
+
+}
+.Flex{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+#logo img{
+    width: 128px;
+    height: 128px;
+}
+
+#topo{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+header{
+    height: 60px;
+}
+
+@media (min-width: 576px){
+    body{
+        background-color: black ;
+    }
+    .Container{
+        max-width: 540px;
+        
+    }
+}
+@media (min-width: 768px){
+    body{
+        background-color: rgb(219, 9, 9) ;
+    }
+    .Container{
+        max-width: 720px;
+        
+    }
+}
+@media (min-width: 992px){
+    body{
+        background-color: rgb(12, 14, 141) ;
+    }
+    .Container{
+        max-width: 960px;
+        
+    }
+}
+@media (min-width: 1200px){
+    body{
+        background-color: rgb(221, 224, 15) ;
+    }
+    .Container{
+        max-width: 1140px;
+        
+    }
+
+    header{
+        height: 120px;
+    }
+
+    #logo img{
+        width: 189px;
+        height: 189px;
+        margin-top: 30px;
+    }
+}
+
